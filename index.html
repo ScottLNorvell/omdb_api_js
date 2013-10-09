@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Movies App</title>
+  <link href="http://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet" type="text/css">
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script src="movie.js"></script>
+</head>
+<body>
+  <div id="outer-container">
+    <div id="inner-container">
+
+      <header>
+
+        <h1>Movies App</h1>
+
+        <form action="/search" method="get">
+
+          <input type="search" name="q" value="" placeholder="Enter a movie title" autofocus />
+          <button name="button" value="search">Search</button>
+          <button name="button" value="lucky">I'm Feeling Lucky!</button>
+
+        </form>
+
+      </header>
+
+      <div id="main">
+        <ol id="results"></ol>
+      </div>
+
+      <footer>
+        Copyright &copy;2013 Movies App
+      </footer>
+
+    </div><!-- #outer-container -->
+  </div><!-- #inner-container -->
+</body>
+</html>
